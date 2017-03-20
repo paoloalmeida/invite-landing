@@ -1,0 +1,103 @@
+/* structure */
+
+html {
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg.png) no-repeat center center fixed #13063F;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.png', sizingMethod='scale')";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+p{
+    line-height: 1.5;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 770px;
+    margin: 100px auto 30px;
+    text-align: center;
+    padding: 0 5%;
+}
+
+h1 {
+    display: block;
+    margin: 0 auto 125px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 auto 50px;
+}
+
+form {
+    display: block;
+    width: 90%;
+    max-width: 330px;
+    display: block;
+    margin: 80px auto 0;
+    text-align: center;
+}
+
+input[type="text"] {
+    display: block;
+    color: #B8B8B8;
+    width: 96%;
+    margin: 15px auto 50px;
+    padding: 14px 2%;
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    display: block;
+    background: #FF9E00;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 100%;
+    padding: 12px 0;
+    text-transform: uppercase;
+    border: 0;
+}
+
+p.link-signup {
+    font-size: 18px;
+    color: #B8B8B8;
+    line-height: 24px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+p.link-signup a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+        html{
+            background: #13063F;
+        }
+    .wrapper {
+        width: 90%;
+        max-width: 100%;
+        margin: 100px auto 30px;
+        text-align: center;
+        padding: 0 5%;
+    }
+    form {
+        max-width: 100%;
+    }
+}
